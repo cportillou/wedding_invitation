@@ -139,7 +139,7 @@ function validateGuestID(id, array) {
 
 async function fetchData() {
   try {
-    const guestID = window.location.pathname.slice(1);
+    const guestID = window.location.hash.slice(1);
     // const guestID = window.location.hash.slice(2);  test only
     console.log("The guest ID is: ", guestID);
     // const guestID = "A9K4L2M7QX";
