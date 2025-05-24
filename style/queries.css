@@ -1,0 +1,89 @@
+@media (max-width: 48em) {
+  .hero-title {
+    font-size: 10rem;
+  }
+
+  .hero-subtitle {
+    font-size: 8rem;
+  }
+
+  .wedding-Details-Inner {
+    width: 75%;
+  }
+
+  .modal {
+    width: 70%;
+  }
+}
+
+@media (max-width: 48em) {
+  .hero-title {
+    font-size: 10rem;
+  }
+
+  .hero-subtitle {
+    font-size: 8rem;
+  }
+
+  .wedding-Details-Inner {
+    width: 75%;
+  }
+
+  .modal {
+    width: 70%;
+  }
+
+  .sub-heading {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 41em) {
+  .wedding-Details-Inner {
+    width: 80%;
+  }
+
+  .modal {
+    width: 70%;
+  }
+
+  .sub-heading {
+    font-size: 4.5rem;
+    font-weight: 800;
+  }
+  .title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .hero-title {
+    font-size: 8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 6rem;
+  }
+
+  .calendarContainer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .sub-heading {
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
+
+  .wedding-Details-Inner {
+    width: 90%;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+}
