@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style/style.css" rel="stylesheet" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer type="module" src="js/script.js"></script>
+    <title>My Wedding</title>
+  </head>
+  <body>
+    <audio id="bgMusic" loop>
+      <source
+        src="audio/Until_I_Found_You_Cover (mp3cut.net).mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <section class="hero-section">
+      <div class="petal-container"></div>
+      <h1 class="hero-title">Nuestra Boda Civil</h1>
+      <h2 class="hero-subtitle">Leticia & Cristian</h2>
+      <div class="counter-container">
+        <div class="calendarContainer"><span class="counter">0</span></div>
+        <span class="generic-text">d&iacute;as para el evento.</span>
+      </div>
+    </section>
+    <!-- <div class="container"> -->
+    <section class="invitees-section">
+      <div class="invitees-inner element">
+        <h3 class="sub-heading">
+          Queremos compartir contigo <br />la felicidad de nuestra uni&oacute;n
+          ...
+        </h3>
+        <p>Hemos reservado <span class="n_invitees"> 1 espacio</span> para:</p>
+        <ul class="guests">
+          <li class="guest">Gabriela Lopez</li>
+          <li class="guest">Mam&aacute; de Gaby</li>
+        </ul>
+      </div>
+    </section>
+    <section class="wedding-Details-section">
+      <div class="video-wrapper">
+        <video autoplay muted loop playsinline>
+          <source
+            src="video/6737400-uhd_4096_2160_24fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="wedding-Details-Container">
+        <div class="wedding-Details-Inner">
+          <div class="date element">
+            <p><ion-icon name="calendar-outline" class="icon"></ion-icon></p>
+            <p>21 de Junio de 2025</p>
+          </div>
+          <div class="time element">
+            <p><ion-icon name="time-outline" class="icon"></ion-icon></p>
+            <p>3:00 PM</p>
+          </div>
+          <div class="location element">
+            <p><ion-icon name="location-outline" class="icon"></ion-icon></p>
+            <p>La Estancia en Los Planes*</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="confirmation-section">
+      <div class="confirmation-inner-section element">
+        <h3 class="title">¡Confirma tu asistencia antes del 3 de Junio!</h3>
+        <button class="confirmation-btn">Confirmar</button>
+        <p class="confirmation-message hidden">Ya estas anotado para el evento y si necesitas ayuda para llegar al lugar, haz click en cualquiera de las siguientes imagenes. ¡Gracias!</p>
+      </div>
+      <div class="place-links">
+        <a href="https://goo.gl/maps/wh8e6N1Duimbm5UD7" target="_blank"
+          ><img
+            src="img/google-maps-logo.png"
+            class="place-links-img"
+            alt="Google Maps Logo"
+        /></a>
+        <a
+          href="https://www.waze.com/en/live-map/directions/sv/san-salvador/los-planes-de-renderos/la-estancia-en-los-planes?to=place.ChIJWwuIGDIzY48Rjl1bmonqST8"
+          target="_blank"
+          ><img src="img/waze-logo.png" class="place-links-img" alt="Waze Logo"
+        /></a>
+      </div>
+    </section>
+    </div>
+
+   
+
+  </body>
+  <footer>
+    <span
+      >Designed and developed by <a href="www.code-x.dev">code-x.dev</a></span
+    ><span> | <span class="year">2025</span> All Rights Reserved</span>
+  </footer>
+
+   <div class="modal hidden">
+      <div class="modal-inner">
+        <img src="img/fail.png" class="error-img">
+      <h3 class="sub-heading">Ha occurrido un error al cargar tu invitacion</h3>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+</html>
