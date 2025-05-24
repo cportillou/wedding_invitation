@@ -126,8 +126,8 @@ allElements.forEach((el) => {
 // Functions
 function loadError(err = "") {
   // document.getElementById('error').textContent = "Error fetching data: " + err;
-  // modal.classList.remove("hidden");
-  // overlay.classList.remove("hidden");
+  modal.classList.remove("hidden");
+  overlay.classList.remove("hidden");
 }
 
 function validateGuestID(id, array) {
